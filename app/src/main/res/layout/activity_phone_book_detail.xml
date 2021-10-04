@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#434141"
+    tools:context=".PhoneBookDetailActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:src="@drawable/sky"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/youtube"/>
+
+    <TextView
+        android:id="@+id/person_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/person_detail_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="010"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+</LinearLayout>

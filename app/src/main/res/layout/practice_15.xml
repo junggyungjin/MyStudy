@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#171717">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/youtube"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Tube"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#474646">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/preview" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:11"
+                android:textColor="#FFFFFF"
+                android:background="#171717"
+                android:layout_above="@id/text1"
+                android:layout_marginLeft="330dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <ImageView
+                android:id="@+id/you1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/youtube"
+                android:layout_below="@id/one"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패스트 캠퍼스 안드로이드 강의 1"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/one"
+                android:layout_toRightOf="@+id/you1"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘의 강의 내용은..."
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/text1"
+                android:layout_toRightOf="@+id/you1"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_below="@+id/you1"
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/preview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:11"
+                android:textColor="#FFFFFF"
+                android:background="#171717"
+                android:layout_above="@id/text2"
+                android:layout_marginLeft="330dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/you2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/youtube"
+                android:layout_below="@id/two"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패스트 캠퍼스 안드로이드 강의 1"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/two"
+                android:layout_toRightOf="@+id/you2"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘의 강의 내용은..."
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/text2"
+                android:layout_toRightOf="@+id/you2"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_below="@+id/you2"
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/preview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:11"
+                android:textColor="#FFFFFF"
+                android:background="#171717"
+                android:layout_above="@id/text3"
+                android:layout_marginLeft="330dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/you3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/youtube"
+                android:layout_below="@id/three"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패스트 캠퍼스 안드로이드 강의 1"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/three"
+                android:layout_toRightOf="@+id/you3"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘의 강의 내용은..."
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/text3"
+                android:layout_toRightOf="@+id/you3"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_below="@+id/you3"
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/preview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:11"
+                android:textColor="#FFFFFF"
+                android:background="#171717"
+                android:layout_above="@id/text4"
+                android:layout_marginLeft="330dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/you4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/youtube"
+                android:layout_below="@id/four"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패스트 캠퍼스 안드로이드 강의 1"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/four"
+                android:layout_toRightOf="@+id/you4"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘의 강의 내용은..."
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/text4"
+                android:layout_toRightOf="@+id/you4"
+                android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
